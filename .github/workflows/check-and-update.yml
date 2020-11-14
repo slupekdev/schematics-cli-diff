@@ -19,7 +19,7 @@ jobs:
       run: |
         git config --global user.email slupek.dev@gmail.com
         git config --global user.name slupekdev
-        git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/cexbrayat/angular-cli-diff.git
+        git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/slupekdev/schematics-cli-diff.git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Generate new version
