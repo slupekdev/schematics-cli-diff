@@ -11,7 +11,7 @@ versions=${versions//\,/}
 
 versions=(${versions})
 
-blocklist=()
+blocklist=(0.803.0-rc.0)
 
 lastVersion="0.0.1"
 rebaseNeeded=false
