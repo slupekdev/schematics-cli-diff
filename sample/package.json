@@ -13,8 +13,8 @@
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
-    "@angular-devkit/core": "^19.2.10",
-    "@angular-devkit/schematics": "^19.2.10",
+    "@angular-devkit/core": "^19.2.11",
+    "@angular-devkit/schematics": "^19.2.11",
     "typescript": "~5.7.2"
   },
   "devDependencies": {
